@@ -1,0 +1,12 @@
+<mat-selection-list color="primary">
+  <mat-list-option color="primary" [ngClass]="todo.Priority" *ngFor="let todo of todoList">
+    <div class="todo-list-item">
+      <div class="description">
+        {{todo.Description}}
+      </div>
+      <div class="time">
+        {{todo.Time}}
+      </div>
+    </div>
+  </mat-list-option>
+</mat-selection-list>

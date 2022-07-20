@@ -1,0 +1,25 @@
+.mat-list-item {
+  margin-bottom: 4px;
+  border-radius: 3px;
+  &.Low {
+    border: 2px solid #0a5e0a;
+  }
+  &.Medium {
+    border: 2px solid #c8c832;
+  }
+  &.High {
+    border: 2px solid #b41b1b;
+  }
+  .todo-list-item {
+    display: flex;
+    justify-content: space-between;
+
+    .description {
+
+    }
+
+    .time {
+
+    }
+  }
+}
