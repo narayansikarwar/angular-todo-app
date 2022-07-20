@@ -1,25 +1,42 @@
 .mat-list-item {
   margin-bottom: 4px;
   border-radius: 3px;
+
   &.Low {
     border: 2px solid #0a5e0a;
   }
+
   &.Medium {
     border: 2px solid #c8c832;
   }
+
   &.High {
     border: 2px solid #b41b1b;
   }
-  .todo-list-item {
+
+  .flex-row {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 
-    .description {
+    .todo-list-item {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
 
+      .description {
+
+      }
+
+      .time {
+
+      }
     }
 
-    .time {
-
+    .actions {
+      display: flex;
+      justify-content: end;
+      margin-right: -18px;
+      padding-left: 10px;
     }
   }
 }
